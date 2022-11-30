@@ -33,12 +33,12 @@ int calculate(int n, int x)
 			for (int i = 1; i <= n - 1; i++)
 			{
 				for (int j = 1; j < 1; j++)
-					y += j / (j * j + j);
+					y += j / (j * j + j) + 999;
 			}
 		}
 		else
 			for (int i = 1; i <= n - 1; i++)
-				y = x - i;
+				y = (x - i) + 500;
 	
 	
 	return 0;
